@@ -1,0 +1,13 @@
+body{
+  margin: 0px;
+}
+#eye1, #eye2{
+  position: absolute;
+  display: none;
+  width: 50px;
+}
+#eye2{
+  -ms-transform: rotate(270deg); /* IE 9 */
+  -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+  transform: rotate(270deg);
+}
