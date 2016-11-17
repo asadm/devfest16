@@ -1,7 +1,5 @@
-// Replace with the key you created at https://cloud.google.com/vision/docs/auth-template/cloud-api-auth
-var apiKey = 'YOUR API KEY HERE';
 
-var CV_URL = 'https://vision.googleapis.com/v1/images:annotate?key=' + apiKey;
+var CV_URL = 'https://vision.googleapis.com/v1/images:annotate?key=' + window.apiKey;
 
 /**
  * Sends the given photo contents to the Cloud Vision API and outputs the

@@ -1,0 +1,2 @@
+// Replace with the key you created at https://cloud.google.com/vision/docs/auth-template/cloud-api-auth
+var apiKey = 'YOUR API KEY HERE';
