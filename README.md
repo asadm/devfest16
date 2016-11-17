@@ -2,6 +2,9 @@
 
 These are resources from my ML talk at DevFest Karachi.
 
+Includes:
+- Slides ([GDocs Version](https://docs.google.com/presentation/d/1Q9m_0eo6sHjTPiNG4tXIH_a4SIOTXnk6B4taECooGeE/edit?usp=sharing))
+- Googly Eyes Demo
 
 ### MIT License
 
