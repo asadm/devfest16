@@ -5,12 +5,12 @@ This is a very basic [Cloud Vision API](https://cloud.google.com/vision/) exampl
 ## Prerequisites
 1. [Sign up for Google Cloud Platform Account](http://cloud.google.com)
 2. [Enable Cloud Vision API](https://cloud.google.com/vision/docs/getting-started)
-3. [Create a Browser Key](https://cloud.google.com/vision/docs/auth-template/cloud-api-auth) for making calls to Cloud Vision API
+3. [Create a Browser Key](https://console.cloud.google.com/apis/credentials) for making calls to Cloud Vision API
 
 
 ## Setup
 1. Rename the file *key.js.example* to *key.js*.
-2. Update the line `var apiKey = 'YOUR API KEY HERE';` in *key.js* with your API key.
+2. Update the line `window.apiKey = 'YOUR API KEY HERE';` in *key.js* with your API key.
 3. Start a web server in this folder and navigate to index.html.
 
 
