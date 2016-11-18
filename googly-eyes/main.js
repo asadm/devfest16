@@ -26,11 +26,9 @@ function loadImages (event) {
 
 // set eyes position on given coordinates on page
 function setEyes(x1, y1, x2, y2){
-  // minus half width to set at center of given coordinates.
-  var halfWidth = $('#eye1').width() / 2;
-  $('#eye1').css({left: x1 - halfWidth, top:y1 - halfWidth })
+  $('#eye1').css({left: x1, top:y1 })
   $('#eye1').show();
 
-  $('#eye2').css({left: x2 - halfWidth, top:y2 - halfWidth })
+  $('#eye2').css({left: x2, top:y2 })
   $('#eye2').show();
 }
